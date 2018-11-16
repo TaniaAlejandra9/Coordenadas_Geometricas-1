@@ -12,6 +12,13 @@ public class Aplicacion {
     public static void main(String[] args) {
         Coordinador coordinador= new Coordinador();
         coordinador.menu();
+        
+        //double pi = 3.14;
+        //double radio = Double.parseDouble(JOptionPane.showInputDialog("ingrese el radio: "));
+        //double puntos = 2*radio*pi;
+        //double area = pi*Math.pow(radio,2);
+        //JOptionPane.showMessageDialog(null,"Puntos: "+puntos+"\n"+"area: "+area);
+        
 //        Punto p = new Punto();
 //        coordinador.almacenarPuntos(p);
 //        coordinador.imprimirPuntos();

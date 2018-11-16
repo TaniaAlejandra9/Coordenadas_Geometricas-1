@@ -5,5 +5,8 @@ package com.ssolis.modelo;
  * @author SSolis
  */
 public class Triangulo {
-
+ 
+  //  Punto p;
+    
+    
 }

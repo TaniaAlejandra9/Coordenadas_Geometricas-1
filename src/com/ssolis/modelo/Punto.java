@@ -8,6 +8,7 @@ import javax.swing.JOptionPane;
  * @author SSolis
  */
 public class Punto {
+    
     private int x;
     private int y;
 

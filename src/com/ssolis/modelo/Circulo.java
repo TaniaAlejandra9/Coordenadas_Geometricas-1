@@ -34,7 +34,8 @@ public class Circulo {
 
     @Override
     public String toString() {
-        return "el centro del círculo es: "+getP()+
+        return "el centro de"
+                + "l círculo es: "+getP()+
                 "\nTiene un radio de: "+getRadio();
         
     }

@@ -32,9 +32,16 @@ public class Coordinador {
     }
     
     public void crearCirculo(){
-        circulos.add(new Circulo(puntos.get(0),Integer.parseInt(JOptionPane.showInputDialog("Ingresa radio"))));
-    JOptionPane.showMessageDialog(null,circulos.get(0));
+      //  circulos.add(new Circulo(puntos.get(0),Integer.parseInt(JOptionPane.showInputDialog("Ingresa radio"))));
+    //JOptionPane.showMessageDialog(null,circulos.get(0));
+    
+    double pi = 3.14;
+        double radio = Double.parseDouble(JOptionPane.showInputDialog("ingrese el radio del circulo: "));
+        double puntos = 2*radio*pi;
+        double area = pi*Math.pow(radio,2);
+        JOptionPane.showMessageDialog(null,"Puntos: "+puntos+"\n"+"Área: "+area);
     }
+    
     
     
     
@@ -66,7 +73,7 @@ public class Coordinador {
                  + "2.- Calcular Distancia entre dos puntos\n"
                  + "3.- Calcular distancia a la torre de control\n"
                  + "4.- Imprimir Puntos\n"
-                 + "5.- Crear circulo"   
+                 + "5.- Crear circulo\n"  
                  + "6.- Salir"));
             switch (op) {
                 case 1:
